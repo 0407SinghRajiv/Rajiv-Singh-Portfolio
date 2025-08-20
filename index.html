@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajiv Singh Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+    <nav>
+        <div class="left">Rajiv's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="#firstSection">Home</a></li>
+                <li><a href="#secondSection">About</a></li>
+                <li><a href="#thirdSection">Experience</a></li>
+                <li><a href="#skillsSection">Skills</a></li>
+                <li><a href="#projectsSection">Projects</a></li>
+                <li><a href="#contactSection">Contact Me</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMobileNav()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <a href="#firstSection" onclick="closeMobileNav()">Home</a>
+            <a href="#secondSection" onclick="closeMobileNav()">About</a>
+            <a href="#thirdSection" onclick="closeMobileNav()">Experience</a>
+            <a href="#skillsSection" onclick="closeMobileNav()">Skills</a>
+            <a href="#projectsSection" onclick="closeMobileNav()">Projects</a>
+            <a href="#contactSection" onclick="closeMobileNav()">Contact Me</a>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section class="firstSection" id="firstSection">
+            <div class="leftSection">
+                Hi , My name is <span class="purple">Rajiv</span>
+                <div>a AIML Engineer</div>
+                <span id="element"></span>
+                <div class="button-container">
+                    <a href="Rajiv_Singh_Resume.pdf" class="btn" download>
+                        <img src="images/download.png" alt="Download" class="btn-icon">
+                        Download Resume
+                    </a>
+                    <a href="https://www.linkedin.com/in/rajiv-singh-987b68312?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BtDxn6MKyS6mjtfKQjACHCg%3D%3D"
+                        class="btn linkedin" target="_blank">
+                        <img src="images/linkedin.png" alt="LinkedIn" class="btn-icon">
+                        Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="images/Rajiv_img.png" alt="image">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection" id="secondSection">
+            <div class="about-header">
+                <span class="text-gray">A Quick Intro</span>
+                <h1>About Me</h1>
+            </div>
+
+            <div class="about-content">
+                <div class="about-left">
+                    <p>I am a passionate AIML Engineer in the making, with a strong foundation in Python, machine
+                        learning,
+                        and web development. I specialize in building predictive models and interactive applications
+                        using
+                        Python, Flask, HTML, CSS, and JavaScript. I also have experience in C programming and am
+                        constantly
+                        expanding my skills to explore advanced AI and ML technologies. My focus is on creating
+                        practical,
+                        scalable solutions while keeping up with emerging trends in the tech world.</p>
+                </div>
+
+                <div class="about-right">
+                    <img src="images/about-image.gif" alt="about-image" width="80%">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdSection" id="thirdSection">
+            <div class="experince-header">
+                <span class="text-gray">My Professional Journey</span>
+                <h1>Work Experience</h1>
+            </div>
+
+            <div class="experience-container">
+                <!-- Google Gemini Student Ambassador -->
+                <div class="experience-card">
+                    <h3>Google Gemini Student Ambassador</h3>
+                    <span class="text-gray">Student Ambassador</span>
+                    <span class="text-gray">Aug 2025 - Present</span>
+                    <ul>
+                        <li>Promoting Google Gemini AI initiatives among students and communities.</li>
+                        <li>Organizing workshops, webinars, and AI learning sessions.</li>
+                        <li>Creating content to educate peers on AI advancements and practical applications.</li>
+                        <li>Building a network of student collaborators to foster AI learning.</li>
+                    </ul>
+                </div>
+
+                <!-- Edunet Foundation Internship -->
+                <div class="experience-card">
+                    <h3>Edunet Foundation</h3>
+                    <span class="text-gray">Internship</span>
+                    <span class="text-gray">June 2025 - Jul 2025</span>
+                    <ul>
+                        <li>Assisted in developing AI/ML-based educational tools for online learning.</li>
+                        <li>Worked on Python projects involving data preprocessing and model building.</li>
+                        <li>Collaborated with team members to design interactive learning modules.</li>
+                        <li>Enhanced predictive models for student performance analytics.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="skillsSection" id="skillsSection">
+            <div class="skills-header">
+                <span class="text-gray">Core Competencies</span>
+                <h1>My Skills</h1>
+            </div>
+
+            <!-- First row -->
+            <div class="skills-row">
+                <div class="skill-item"><img src="images/html.png" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-item"><img src="images/css.png" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-item"><img src="images/JS.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+            </div>
+
+            <!-- Second row -->
+            <div class="skills-row">
+                <div class="skill-item"><img src="images/Python.png" alt="Python">
+                    <p>Python</p>
+                </div>
+                <div class="skill-item"><img src="images/AIML image.png" alt="Machine Learning">
+                    <p>Machine Learning</p>
+                </div>
+                <div class="skill-item"><img src="images/mysql.png" alt="SQL">
+                    <p>SQL</p>
+                </div>
+            </div>
+
+            <!-- Third row -->
+            <div class="skills-row">
+                <div class="skill-item"><img src="images/firebase-logo.png" alt="Firebase">
+                    <p>Firebase</p>
+                </div>
+                <div class="skill-item"><img src="images/supabase.png" alt="Supabase">
+                    <p>Supabase</p>
+                </div>
+                <div class="skill-item"><img src="images/git.png" alt="Git">
+                    <p>Git</p>
+                </div>
+            </div>
+
+            <!-- Fourth row -->
+            <div class="skills-row">
+                <div class="skill-item"><img src="images/cp.png" alt="C Programming">
+                    <p>C Programming</p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="projectsSection" id="projectsSection">
+            <div class="projects-header">
+                <span class="text-gray">Showcasing My Work</span>
+                <h1>Projects</h1>
+            </div>
+
+            <!-- Project 1 -->
+            <div class="project-container project1">
+                <div class="project1-left">
+                    <img src="images/Birthday_Reminder.png" alt="Birthday Reminder Automation" width="90%">
+                </div>
+                <div class="project1-right">
+                    <h3>Birthday Reminder Automation 🎂</h3>
+                    <p>A Python-based automation project that sends birthday reminders using scheduling and email
+                        automation. Helps never miss a special day by fetching stored dates and notifying on time.</p>
+                    <a href="https://github.com/0407SinghRajiv/Birthday-Reminder.git" target="_blank">
+                        <img src="images/github (2).png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-container project2">
+                <div class="project2-left">
+                    <h3>Garbage Classification (ML Project) ♻️</h3>
+                    <p>Developed as part of my internship, this Machine Learning project classifies garbage into
+                        diffrent categories of garbages like Paper,Glass,Trash,Metal etc. using CNNs, contributing to
+                        smarter waste management systems.</p>
+                    <a href="https://github.com/0407SinghRajiv/Garbage_Classification.git" target="_blank">
+                        <img src="images/github (2).png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+                <div class="project2-right">
+                    <img src="images/Garbage_classification.png" alt="Garbage Classification Project" width="90%">
+                </div>
+            </div>
+        </section>
+    
+        <section class="contactSection" id="contactSection">
+            <div class="contact-header">
+                <h1>Interested? <span>Let's Get in Touch !!</span></h1>
+                <p>I’d love to hear from you. Whether you have a project idea, a question, or just want to connect, feel
+                    free to reach out 👇</p>
+            </div>
+
+            <!-- Contact Form -->
+            <form class="contact-form" action="https://formspree.io/f/mldlyjwz" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/0407SinghRajiv" target="_blank">
+                    <img src="images/github (2).png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/rajiv-singh-987b68312?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BtDxn6MKyS6mjtfKQjACHCg%3D%3D" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="mailto:0407singhrajivd@email.com">
+                    <img src="images/gmail.png" alt="Email">
+                </a>
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <script src="response.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Building AI Models', 'Solving Real-World Problems', 'Turning Data into Insights.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
